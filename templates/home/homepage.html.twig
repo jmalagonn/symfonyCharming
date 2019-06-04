@@ -2,12 +2,14 @@
 
 {% block title %}Charming Bogota{% endblock %}
 {% block body %}
-    <ul>
-        <li><a href="{{ url('app_homepage') }}"><img src="{{ asset('images/logocharming.svg') }}" /></a></li>
-        <li><a href="#">Desayunos</a></li>
-        <li><a href="#">Cenas</a></li>
-        <li><a href="#">Entregas</a></li>
-        <li><a href="#">Contáctenos</a></li>
-    </ul>
+    <div class="container-fluid">
+        <ul class="alert alert-primary">
+            <li><a href="{{ url('app_homepage') }}"><img src="{{ asset('images/logocharming.svg') }}" /></a></li>
+            <li><a href="#">Desayunos</a></li>
+            <li><a href="#">Cenas</a></li>
+            <li><a href="#">Entregas</a></li>
+            <li><a href="#">Contáctenos</a></li>
+        </ul>    
+    </div>
 {% endblock %}
 
